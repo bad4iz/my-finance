@@ -1,0 +1,1 @@
+[node-yahoo-finance](https://github.com/pilwon/node-yahoo-finance)
