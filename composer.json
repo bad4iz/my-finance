@@ -1,0 +1,11 @@
+{
+    "name": "bad4iz/my-finance",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "bad4iz",
+            "email": "info@bad4iz.ru"
+        }
+    ],
+    "require": {}
+}
