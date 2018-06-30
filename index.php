@@ -26,9 +26,15 @@ $searchResult = $client->search("bash");
 //d( $searchResult);
 // Returns an array of Scheb\YahooFinanceApi\Results\HistoricalData
 $historicalData = $client->getHistoricalData("AAPL", ApiClient::INTERVAL_1_DAY, new \DateTime("-14 days"), new \DateTime("today"));
+//echo json_encode($historicalData);
+//d($historicalData);
+
 
 // Returns Scheb\YahooFinanceApi\Results\Quote
 $exchangeRate = $client->getExchangeRate("USD", "EUR");
+
+
+
 
 // Returns an array of Scheb\YahooFinanceApi\Results\Quote
 $exchangeRates = $client->getExchangeRates([
@@ -41,3 +47,4 @@ $quote = $client->getQuote("AAPL");
 
 // Returns an array of Scheb\YahooFinanceApi\Results\Quote
 $quotes = $client->getQuotes(["AAPL", "GOOG"]);
+//echo json_encode($quotes);
